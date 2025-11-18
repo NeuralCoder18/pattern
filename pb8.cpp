@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void pb_8(int n){
+void pb8(int n){
     for(int i=0;i<n;i++){
         for(int j=1;j<=i;j++){
            cout<<" ";
@@ -15,6 +15,6 @@ int main(){
     int n;
     cout<<"Enter the number n";
     cin>>n;
-    pb_8(n);
+    pb8(n);
     return 0;
 }
